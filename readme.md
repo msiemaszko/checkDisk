@@ -5,7 +5,8 @@ Wyniki kolekcjonowane w bazie mysql.
 
 
 #### Konfiguracja:
-1. Wszystkie pliki należy umieścić na jakimś ogólno dostępnym katalogu sieciowym : ```\\10.4.xx.xxx\wymiana$\checkDisk\```
+1. Wszystkie pliki należy umieścić na jakimś ogólno dostępnym katalogu sieciowym
+  * np : ```\\10.4.xx.xxx\wymiana$\checkDisk\```
 
 
 2. Należy wyedytować plik **checkDisk.ps1**

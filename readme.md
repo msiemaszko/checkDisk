@@ -31,7 +31,7 @@ Skrypt jest przystosowany do wykonywania po po sieci (psexec) również w pętli
 #### Wyniki:
 Zebrane wyniki prezentują się w sposób:
 
-![result mySQL](result.png)
+![result mySQL](result.PNG)
 
 Wartości odstające wskazują na problemy z dyskiem. Dla pewności można wykonać dodatkowe sprawdzenie dowolnym programem  z inferfejsem graficznym.
 

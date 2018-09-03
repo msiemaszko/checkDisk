@@ -1,6 +1,6 @@
 Odczyt SMART z dysków.
 ----
-Zestaw skryptów jest przeznaczony do testowania dysków komputerowych w .
+Zestaw skryptów służy do testowania dysków komputerowych w całej infrastrukturze IT organizacji. Przeznaczony jest na systemy rodziny Windows.
 Wyniki kolekcjonowane w bazie mysql.
 
 
@@ -24,8 +24,16 @@ Wyniki kolekcjonowane w bazie mysql.
 
 
 #### Uruchamianie:
-Wystarczy, że uruchomimy ```checkDisk.cmd``` na komputerze z którym chcemy odczytać SMART.
+Wystarczy, że uruchomimy ```checkDisk.cmd``` na komputerze z którego chcemy odczytać SMART. Wszystkie pozostałe zasoby jak i sam skrypt ps1 zostanie automatycznie skopiowany z udostępnionego udziału bądź wykonany bezpośrednio przez sieć.
 Skrypt jest przystosowany do wykonywania po po sieci (psexec) również w pętli lub przez program RemoteScriptExecutor.
+
+
+#### Wyniki:
+Zebrane wyniki prezentują się w sposób:
+
+![result mySQL](result.png)
+
+Wartości odstające wskazują na problemy z dyskiem. Dla pewności można wykonać dodatkowe sprawdzenie dowolnym programem  z inferfejsem graficznym.
 
 
 ##### Źródła:
